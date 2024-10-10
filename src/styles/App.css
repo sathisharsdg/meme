@@ -10,14 +10,13 @@
 
 /* Header Component */
 header {
-	display: flex;
-	align-items: center;
-	height: 5em;
-	background-color: #f8de7e;
-	background-image: linear-gradient(315deg, #f8de7e 0%, #d99058 74%);
-	color: #351600;
-	padding: 1.2em;
-	border-radius: 10px;
+    align-items: center;
+    background-color: #e9360a;
+    background-image: linear-gradient(315deg, #b20d0d, #730754 74%);
+    color: #351600;
+    display: flex;
+    height: 5em;
+    padding: 1.2em;
 }
 
 .header-image {
@@ -26,8 +25,9 @@ header {
 }
 
 .header-title {
-	font-size: 1.25rem;
-	margin-right: auto;
+    font-size: 1.25rem;
+    margin-right: auto;
+    color: #fff;
 }
 
 /* Header Component */
@@ -53,14 +53,15 @@ main {
 }
 
 .form-button {
-	grid-column: 1 / -1;
-	background-image: linear-gradient(315deg, #f8de7e 0%, #d99058 74%);
-	font-family: "Karla", sans-serif;
-	border-radius: 5px;
-	font-weight: 500;
-	color: #351600;
-	border: none;
-	cursor: pointer;
+    grid-column: 1 / -1;
+    background-image: linear-gradient(315deg, #d63307 0%, #ffc416 74%);
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #fffcf9;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 .meme {
